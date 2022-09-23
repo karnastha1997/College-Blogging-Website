@@ -1,0 +1,68 @@
+.post-img{
+    height: 404px;
+    overflow: hidden; 
+}
+.post-img img{
+    width: 100%;
+}
+/* .blog-post-content{
+    background-color: rebeccapurple; 
+} */
+.blog-post-content h1{
+    text-align: center;
+}
+.blog-post-content p{
+    font-size: 18px; 
+}
+
+.row{
+    display: flex;
+}
+.more-post{
+    flex-direction: column; 
+    align-items: center;
+}
+.blogpost-meta{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info{
+    margin: 12px 0;
+}
+.author-info div{
+    padding: 4px 0px;
+    font-family: var(--font2);
+}
+.social{
+    padding-right: 53px;
+    align-self: center;
+    cursor: pointer;
+}
+
+/* .font1{
+    font-size: 0.1rem;
+} */
+
+ .ico{
+    /* background-color: red; */
+    padding:0 19rem;  
+    /* margin: 2rem;  */
+} 
+ 
+.commtex{
+    padding: 10px;
+    margin: 15px 0; 
+    /* width: 200px; */
+} 
+.butt{
+    padding: 5px 20px;
+    margin: 10px 0; 
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.butt:hover{
+    background-color: brown;
+    color: white;
+}
+
